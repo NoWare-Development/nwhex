@@ -31,7 +31,7 @@ $ nwhex test.txt
 | 0x00000020 | 79 6F 75 20 64 6F 69 6E 67 3F 0A                |
 ```
 
-And like this with `--ascii` flag:
+Or like this with `--ascii` flag:
 ```
 $ nwhex --ascii test.txt
 | Address    | 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F | ASCII            |
