@@ -2,20 +2,21 @@
 
 __NWHex__ is a part of [NoWare-Tools](https://github.com/NoWare-Development/noware-tools).
 
-__NWHex__ is a simple HEX viewer written in Rust.
+__NWHex__ is a simple HEX viewer written in C.
 
 ## Usage
 ```
-$ nwhex [flags] <file>
+$ nwhex [flags] file
 ```
 
-## Available flags
-* `--help -?` -- display help message
-* `--ascii -A` -- display ASCII representation of data
-* `--output -O <file>` -- output read data to a file
+## Available Flags
+* `--help -h` -- display help message.
+* `--version -v` -- display version.
+* `--ascii -a` -- display ASCII representation of data.
+* `--output -o [file]` -- output read data to a file.
 
 ## Examples
-We have file that content this:
+We have file with content:
 ```
 Hello! I'm a test file!
 How are you doing?
